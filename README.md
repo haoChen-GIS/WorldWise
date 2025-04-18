@@ -47,15 +47,6 @@ npm run build
 ```
 
 
-### 📂 Folder Structure
-src/
-├── components/        # Reusable UI components
-├── context/           # Global context and reducer
-├── hooks/             # Custom React hooks
-├── pages/             # App pages (e.g., Home, Cities)
-├── App.jsx            # Main app component with routing
-├── index.js           # Entry point
-
 ### 🧠 What I Learned
 Advanced usage of React Router v6 (nested routing, URL params)
 
