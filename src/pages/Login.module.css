@@ -1,6 +1,14 @@
-.login {
+/* .login {
   margin: 2.5rem;
   padding: 2.5rem 5rem;
+  background-color: var(--color-dark--1);
+  min-height: calc(100vh - 5rem);
+} */
+
+.login {
+  height: 100vh; /* 确保高度为整个视口高度 */
+  margin: 0; /* 移除外边距 */
+  padding: 0; /* 移除内边距 */
   background-color: var(--color-dark--1);
   min-height: calc(100vh - 5rem);
 }
