@@ -29,7 +29,7 @@ function CountryList({ cities, isLoading }) {
   return (
     <ul className={styles.countryList}>
       {countries.map((country) => (
-        <CountryItem country={country} /> // 渲染每个国家
+        <CountryItem country={country} key={country.country} /> // 渲染每个国家
       ))}
     </ul>
   );
